@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="nav_item"><a href="#info">Events</a></li>
+                <li class="nav_item"><a href="#menu">Menu</a></li>
+                <li class="nav_item"><a href="#reservation">Reservation</a></li>
+                <li class="nav_item"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="content">
+            <h1 id="title">Mel & Michel</h1>
+            <h2><em>Trattoria</em></h2>
+        </div>
+    </header>
+
+    <section id="info" class="clearfix">
+        <p id="description">Mel &amp; Michelle is a small and intimate restaurant run by chef Nir Wayman.
+                The chef infuse personal and artisanal touches on classical Italian cuisine.<br><br>Hand made gnocchi, fresh pasta and local produce from the various markets are the basis of the seasonal menu, which also incorporates truffle oils, roman artichokes and spices from around the globe.<br><br>White table cloths, soft- incandescent lighting and an attentive staff create the calm and welcoming ambiance, characteristic of <strong>Mel &amp; Michelle.</strong></p>
+        <img id="chef" src="img/img_chef.png" alt="chef">
+    </section>
+
+    <section id="menu">
+        <div id="sub_menu">
+            <h3>Menu</h3>
+            <button id="show_menu">Click To Discover</button>
+        </div>
+    </section>
+
+        <section id="reservation">
+            <img id="table_icon" src="img/img_table.png" alt="icon_table">
+            <h3>Make an online reservation</h3>
+            <form action="#">
+                <i><img class="icons" src="img/icon_calendar.png" alt="icon_calendar"></i>
+                <input type="date" value="2018-12-31">
+                <i><img class="icons" src="img/icon_clock.png" alt="icon_clock"></i>
+                <input type="time" value="11:00">
+                <i><img class="icons"src="img/icon_user.png" alt="icon_user"></i>
+                <select>
+                    <option value="1 person">1 person</option>
+                    <option value="2 person">2 persons</option>
+                    <option value="3 person">3 persons</option>
+                    <option value="4 person">4 persons</option>
+                    <option value="5 person">5 persons</option>
+                    <option value="5 person">6 persons</option>
+                    <option value="6+ persons">6+ persons</option>
+                </select>
+                <button id="btn_find">Find a table</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer id="contact">
+        <p id="footer_title">Mel & Michel</p>
+        <div id="info_restaurant">
+            <ul>
+                <li>155 Ben Yehuda st. Tel Aviv</li>
+                <li><i><img id="icon_clock" src="img/icon_clock.png" alt="icon_clock_footer"></i></li>
+                <li>Sun: Private events only</li>
+                <li>Mon-Fri: 18:30 to the last customer</li>
+                <li>Sat: 12:30 to 16:00, 18:30 to the last customer</li>
+            </ul>
+        </div>  
+            <p id="copyright"> &copy Davide Cannerozzi</p>
+    </footer>
+</body>
+</html>
