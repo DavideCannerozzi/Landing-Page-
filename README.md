@@ -2,7 +2,7 @@
 Landing page Restaurant
 
 #preview of the website
-![screenshot](https://imgur.com/YZT8BC3)
+![screenshot](https://i.imgur.com/YZT8BC3.jpg)
 <hr /> 
 #Responsive 
-![screenshot](https://imgur.com/FfI8ird)
+![screenshot](https://i.imgur.com/FfI8ird.jpg)
